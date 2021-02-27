@@ -27,7 +27,6 @@ class AdminController extends Controller
     {
 
 
-        
         $slider=Slider::find($id);
         if($slider->img)
         {

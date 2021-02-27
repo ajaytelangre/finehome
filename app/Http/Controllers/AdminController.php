@@ -25,8 +25,6 @@ class AdminController extends Controller
 {
     public function remove_slider($id)
     {
-
-        
         $slider=Slider::find($id);
         if($slider->img)
         {

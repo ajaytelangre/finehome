@@ -1,0 +1,58 @@
+.sidbar_height{
+    min-height: 600px;
+}
+
+.card_font_size{
+    font-size: 200%;
+}
+
+.card_background{
+    background:white;
+    box-shadow: 10px 10px 5px hsl(0, 4%, 77%);
+    border-left: 9px solid rgb(12 147 156 / 90%);
+    border-radius: 45px;
+}
+
+.box_shadow{
+    box-shadow: 10px 10px 5px #c7c2c2;
+}
+
+body {
+ 
+    background-color: #f5f6fa;
+  }
+
+.symbol_size{
+    font-size: 52px;
+    padding: 2px;
+}
+
+.bg_color{
+    background-color: #FBD12C;
+}
+
+.sidbar_height
+{
+    min-height: 800px;
+}
+
+.service_image_height{
+    height: 142px;
+}
+.icon_size{
+    height: 85px;
+}
+
+
+@media (min-width: 768px)
+{
+    .card_font_size{
+        font-size: 140%;
+    }
+}
+
+.drag_drop{
+    height: 200px;
+    padding: 80px;
+    border-style: dashed;
+}

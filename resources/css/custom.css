@@ -1,0 +1,48 @@
+.sidbar_height{
+    min-height: 600px;
+}
+
+.card_font_size{
+    font-size: 200%;
+}
+
+.card_background{
+    background:white;
+    box-shadow: 10px 10px 5px hsl(0, 4%, 77%);
+    border-left: 9px solid rgb(12 147 156 / 90%);
+    border-radius: 45px;
+}
+
+.box_shadow{
+    box-shadow: 10px 10px 5px #c7c2c2;
+}
+
+body {
+ 
+    background-color: #F5F6FA;
+  }
+
+
+
+.symbol_size{
+    font-size: 52px;
+    padding: 2px;
+}
+
+.bg_color{
+    background-color: #FBD12C;
+}
+
+.sidbar_height
+{
+    min-height: 700px;
+}
+
+
+
+@media (min-width: 768px)
+{
+    .card_font_size{
+        font-size: 140%;
+    }
+}

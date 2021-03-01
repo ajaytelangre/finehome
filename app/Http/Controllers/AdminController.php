@@ -23,11 +23,27 @@ use Redirect;
 use Illuminate\Support\Facades\Http;
 class AdminController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
+    public function slider()
+    {
+        $slider=Slider::where("type","slider")->get();
+        return $slider;
+    }
+
+    public function offer_img()
+    {
+        $slider=Slider::where("type","offer")->get();
+        return $slider;
+    }
+
+
     public function remove_slider($id)
     {
 
-
-        
         $slider=Slider::find($id);
         if($slider->img)
         {

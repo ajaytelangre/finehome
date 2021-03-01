@@ -55,3 +55,5 @@ Route::post('/partner_lead_accepted',[PartnerController::class,'partner_lead_acc
 Route::post('/reassign_request',[UserController::class,'reassign_request']);
 Route::post('/partner_info',[PartnerController::class,'partner_info']);
 Route::get('/incomplete',[AdminController::class,'booking_incomplete']);
+Route::post('/slider',[AdminController::class,'slider']);
+Route::post('/offer_img',[AdminController::class,'offer_img']);

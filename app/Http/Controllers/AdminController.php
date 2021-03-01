@@ -27,7 +27,7 @@ class AdminController extends Controller
     {
         $this->middleware('auth');
     }
-    
+
     public function slider()
     {
         $slider=Slider::where("type","slider")->get();

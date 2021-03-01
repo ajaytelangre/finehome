@@ -34,11 +34,11 @@
                                     <h5>Home Screen</h5>
 								</div>
 								<div class="">
-                                    <img class="img-fluid p-1" src="{{asset('/storage/slider/1.png')}}">
+                                    <img class="img-fluid p-1" src="{{asset('/storage/slider/IpAaQSXLJbol9cU6tQkRb9bpqQB6mGud5PYW9M6M.png')}}">
 								</div>
 								<div class="mt-1 mb-2">
 									<b class="ml-2">Best Offers</b>
-                                    <img class="img-fluid p-1" src="{{asset('/storage/slider/2.png')}}">
+                                    <img class="img-fluid p-1" src="{{asset('/storage/slider/i9KCAqnAu1EGJGnBfTIoq9FUZXf4HIQ8p7fJlhgz.png')}}">
 								</div>
 								<div class="">
 									<a href="{{url('/ui-form')}}" type="button" class=" btn btn-block btn-lg btn-secondary  text-white"><i class="fa fa-pencil-square-o mr-2" aria-hidden="true"></i>Edit</a>

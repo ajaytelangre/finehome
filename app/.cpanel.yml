@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/finehomeservice/public_html/
     - /bin/cp * $DEPLOYPATH
    
+   

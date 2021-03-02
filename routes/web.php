@@ -61,3 +61,4 @@ Route::get('/ui-form',[AdminController::class,'ui_form']);
 Route::post('/upload_slider',[AdminController::class,'upload_slider']);
 Route::get('/remove_slider/{id}',[AdminController::class,'remove_slider']);
 
+Route::match(['get', 'post'], '/botman', 'BotManController@handle');

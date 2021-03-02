@@ -9,6 +9,16 @@
             <div class="col-5 col-lg-2 col-md-2 bg-white sidbar_height" id="sidebar">
                 @include('sidebar')
             </div>
+
+<!-- 
+    <script>
+	    var botmanWidget = {
+	        aboutText: 'ssdsd',
+	        introMessage: "✋ Hi! I'm form codechief.org"
+	    };
+    </script> -->
+  
+    
             <div class="col"> <!--col- 10 --> 
                 
                 <div class="row">  <!--row --> 

@@ -1,7 +1,7 @@
 ---
-
-   
-   deployment:
+deployment:
   tasks:
     - export DEPLOYPATH=/home/finehomeservice/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
+   
+   
